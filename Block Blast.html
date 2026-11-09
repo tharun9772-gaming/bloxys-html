@@ -39,7 +39,7 @@
       <script>
          window.addEventListener("load", function () {
            if ("serviceWorker" in navigator) {
-             navigator.serviceWorker.register("https://cdn.jsdelivr.net/gh/bloxcraftubg/bl/ServiceWorker.js");
+             navigator.serviceWorker.register("https://esm.sh/gh/bloxcraftubg/bl/ServiceWorker.js");
            }
          });
          var container = document.querySelector("#unity-container");
@@ -65,7 +65,7 @@
            updateBannerVisibility();
          }
          
-         var buildUrl = "https://cdn.jsdelivr.net/gh/bloxcraftubg/bl/Build";
+         var buildUrl = "https://esm.sh/gh/bloxcraftubg/bl/Build";
          var loaderUrl = buildUrl + "/BlockBlast1.1-8.loader.js";
          var config = {
            dataUrl: buildUrl + "/BlockBlast1.1-8.data.unityweb",
